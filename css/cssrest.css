@@ -45,19 +45,4 @@ table {
 input {
   -webkit-appearance: none;
   border-radius: 0;
-}
-
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #00285A;
-  background: #9DBFDA;
-}
-
-header {
-  background: #00285A;
-  margin: 0 auto;
-}
-
-.active {
-  color: #FF5661;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=cssrest.css.map */

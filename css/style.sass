@@ -1,0 +1,63 @@
+@import 'cssrest'
+    
+//Define 
+$primary-color: #00285A        // Blue
+$secondary-color: #9DBFDA      // Light_Blue
+$success-color: #FF5661        // green
+$danger-color: #dc3545         // Red
+$warning-color: #ffc107        // Yellow
+
+//Fonts
+$font-stack: Helvetica, sans-serif
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+  background:$secondary-color
+    
+header
+    background: $primary-color
+    margin:0 auto
+
+.active
+    color: $success-color
+
+// Header styles
+header
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 10px
+  background-color: #f0f0f0
+
+  .logo
+    display: flex
+    align-items: center
+
+    img
+      width: 50px
+      height: 50px
+
+  nav
+    ul
+      list-style: none
+      display: flex
+      gap: 10px
+
+    li
+      a
+        color: $secondarycolor
+        text-decoration: none
+        text-transform: uppercase
+
+  .login
+    display: flex
+    align-items: center
+
+    button
+      background-color: $secondarycolor
+      color: white
+      border: none
+      padding: 10px 20px
+      text-transform: uppercase
+      cursor: pointer
